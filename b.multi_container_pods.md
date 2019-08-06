@@ -40,7 +40,7 @@ kubectl exec -it busybox -c busybox2 -- /bin/sh
 ls
 exit
 # you can do some cleanup
-kubectl delete po busybox
+kubectl delete pod busybox
 ```
 
 </p>
